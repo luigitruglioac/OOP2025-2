@@ -1,2 +1,2 @@
-# POO2025-2
-Códigos construídos durante as aulas da disciplina de Programação Orientada a Objetos cursada na UFPB Campus IV.
+# OOP2025-2
+Activities made through the discipline OOP at UFPB Campus IV
