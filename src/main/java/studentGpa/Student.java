@@ -1,4 +1,4 @@
-package StudentGPA;
+package studentGpa;
 
 public class Student {
     private String name;
