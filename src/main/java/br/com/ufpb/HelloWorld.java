@@ -1,4 +1,4 @@
-package StudentGPA;
+package br.com.ufpb;
 
 public class HelloWorld {
     public static void main(String[] args ){
