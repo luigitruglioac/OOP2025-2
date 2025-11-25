@@ -2,12 +2,12 @@ package secretsanta;
 
 public class Message {
     private String text;
-    private String emailSender;
+    private String senderMail;
     private boolean anonymous;
 
     public Message(String text, String emailSender, boolean anonymous){
         this.text = text;
-        this.emailSender = emailSender;
+        this.senderMail = senderMail;
         this.anonymous = anonymous;
 
     }
@@ -23,12 +23,12 @@ public class Message {
         this.text = text;
     }
 
-    public String getEmailSender() {
-        return emailSender;
+    public String getSenderMail() {
+        return senderMail;
     }
 
-    public void setEmailSender(String emailSender) {
-        this.emailSender = emailSender;
+    public void setEmailSender(String senderMail) {
+        this.senderMail = senderMail;
     }
 
     public boolean isAnonymous() {
