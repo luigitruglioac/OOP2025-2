@@ -44,7 +44,7 @@ public class SistemaAmigoMapTest {
         }
     }
 
-    @Tst
+    @Test
     void testEnviarMensagemParaTodos() {
         assertTrue(sistema.pesquisaTodasAsMensagens().isEmpty());
         sistema.enviarMensagemParaTodos("texto", "ayla@dcx.ufpb.br", true);
