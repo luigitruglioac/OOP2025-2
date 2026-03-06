@@ -15,7 +15,7 @@ public class Disciplina {
         this.horarios = horarios;
     }
 
-    public String getNome() {
+    public String getNomeDisc() {
         return nome;
     }
 

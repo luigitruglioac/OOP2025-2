@@ -39,7 +39,7 @@ public class SistemaGerenciaProfsMap implements SistemaGerenciaProfs {
 
         for (Disciplina d : this.disciplinasMap.values()) {
             if (d.getMatriculaProf() == matriculaProf) {
-                nomesDisciplinas.add(d.getNome());
+                nomesDisciplinas.add(d.getNomeDisc());
             }
         }
         return nomesDisciplinas;
