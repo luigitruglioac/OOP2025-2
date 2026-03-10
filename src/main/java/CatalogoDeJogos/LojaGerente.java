@@ -1,4 +1,4 @@
-package lojaDeJogos;
+package CatalogoDeJogos;
 
 import java.util.*;
 import java.io.IOException;

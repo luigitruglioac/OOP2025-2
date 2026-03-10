@@ -1,4 +1,4 @@
-package lojaDeJogos;
+package CatalogoDeJogos;
 
 import java.io.*;
 import java.util.*;

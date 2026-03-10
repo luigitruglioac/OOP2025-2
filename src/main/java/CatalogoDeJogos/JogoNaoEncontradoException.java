@@ -1,4 +1,4 @@
-package lojaDeJogos;
+package CatalogoDeJogos;
 
 public class JogoNaoEncontradoException extends RuntimeException {
     public JogoNaoEncontradoException(String message) {
