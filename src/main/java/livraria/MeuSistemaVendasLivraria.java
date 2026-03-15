@@ -67,7 +67,7 @@ public class MeuSistemaVendasLivraria implements SistemaVendasLivraria{
     public double calculaValorTotalDasVendas(){
         double valorTotal=0;
         for(Vendas v : this.vendasMap.values()){
-            valorTotal += v.getPrecoUnitario() * v.getQuantUnidades();
+            valorTotal += v.calculaValorTotal();
         }
         return valorTotal;
     }
